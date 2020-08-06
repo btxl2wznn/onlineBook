@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nihao">
+    <output-path>$PROJECT_DIR$/out/artifacts/nihao</output-path>
+    <root id="archive" name="nihao.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OnlineReader" />
+          <element id="dir-copy" path="$PROJECT_DIR$/web/WEB-INF/lib" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.20.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-leancloud-1.1.39.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/icefaces-ace-4.1.0.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="OnlineReader/web/Web" />
+    </root>
+  </artifact>
+</component>
